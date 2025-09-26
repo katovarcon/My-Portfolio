@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio - Home</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Mi Portafolio</div>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="work.html">Work</a></li>
+        <li><a href="contact.html">Contacto</a></li>
+      </ul>
+
+      <!-- Menú sandwich -->
+      <button class="menu-toggle" id="menuToggle">
+        <span></span><span></span><span></span>
+      </button>
+
+      <!-- Botón Dark Mode -->
+      <button class="dark-btn" id="darkBtn">🌙</button>
+    </nav>
+  </header>
+
+ <!-- Hero -->
+<section class="hero fade-in">
+  <div class="hero-header">
+    <div class="hero-avatar">
+      <img src="https://via.placeholder.com/100" alt="Tu Foto">
+    </div>
+    <h1>
+      <span class="line1">Creative <span class="highlight">Designer</span></span><br>
+      <span class="line2">Crafting Digital Experiences.</span>
+    </h1>
+    <p class="subtitle">[Hi! I am Tu Nombre. Currently working at @Empresa]</p>
+  </div>
+</section>
+
+
+  <!-- Proyectos destacados -->
+  <section class="work">
+    <h2>Proyectos Destacados</h2>
+    <div class="projects-grid">
+      <div class="project-card slide-left">
+        <img src="https://via.placeholder.com/600x400" alt="Proyecto 1">
+        <div class="project-content">
+          <span class="project-category">Travel</span>
+          <h3>25% Más Reservas con UX Optimizado</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <div class="tags">
+            <span>UI</span><span>UX</span><span>Mobile</span>
+          </div>
+          <a href="work.html" class="card-btn">Ver más</a>
+        </div>
+      </div>
+      <div class="project-card fade-in">
+        <img src="https://via.placeholder.com/600x400" alt="Proyecto 2">
+        <div class="project-content">
+          <span class="project-category">E-Commerce</span>
+          <h3>Optimización de Checkout +25%</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <div class="tags">
+            <span>Web</span><span>React</span><span>API</span>
+          </div>
+          <a href="work.html" class="card-btn">Ver más</a>
+        </div>
+      </div>
+      <div class="project-card slide-right">
+        <img src="https://via.placeholder.com/600x400" alt="Proyecto 3">
+        <div class="project-content">
+          <span class="project-category">Healthcare</span>
+          <h3>Citas Médicas +30% Rápidas</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <div class="tags">
+            <span>UX</span><span>App</span><span>Health</span>
+          </div>
+          <a href="work.html" class="card-btn">Ver más</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Me -->
+<section id="about" class="about-section fade-in">
+  <h2>[About Me]</h2>
+  <div class="about-card">
+    <div class="about-image">
+      <img src="https://via.placeholder.com/300x400" alt="Tu Foto">
+      <div class="about-icons">
+        <a href="#"><i class="fas fa-paint-brush"></i></a>
+        <a href="#"><i class="fas fa-code"></i></a>
+        <a href="#"><i class="fas fa-lightbulb"></i></a>
+        <a href="#"><i class="fas fa-users"></i></a>
+      </div>
+    </div>
+    <div class="about-content">
+      <h3>Tu Nombre</h3>
+      <p class="role">UX Designer @Empresa</p>
+      <p>
+        Hi, I'm <strong>Tu Nombre</strong>, a UX designer with a passion for creating 
+        seamless, intuitive digital experiences.  
+      </p>
+      <p>
+        I believe in combining creativity with functionality, ensuring that 
+        every design not only looks great but works flawlessly.  
+        My goal is to create user-centered designs that make a lasting impact.
+      </p>
+      <p class="signature">— Tu Nombre</p>
+      <a href="about.html" class="btn-primary">More About Me</a>
+    </div>
+  </div>
+</section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-top">
+      <p>Yay! Hemos llegado al final. Di 👋</p>
+      <a href="mailto:tuemail@gmail.com" class="footer-email">tuemail@gmail.com</a>
+    </div>
+    <div class="footer-links">
+      <a href="#">LinkedIn</a>
+      <a href="#">Discord</a>
+      <a href="#">Mail</a>
+    </div>
+    <div class="footer-meta">
+      <p>Made by <a href="#">Tu Nombre</a></p>
+      <p>Septiembre 2025</p>
+    </div>
+    <div class="footer-end">
+      <h2>[The End]</h2>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

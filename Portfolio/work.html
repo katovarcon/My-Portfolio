@@ -3,76 +3,90 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Work</title>
+  <title>Portafolio - Home</title>
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+  <!-- Header -->
   <header>
     <nav class="navbar">
-      <div class="logo">Mi Portafolio</div>
+      <div class="logo">Portfolio</div>
+
       <ul class="nav-links" id="navLinks">
-        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html" class="active">Home</a></li>
         <li><a href="about.html">About Me</a></li>
-        <li><a href="work.html" class="active">Work</a></li>
+        <li><a href="work.html">Work</a></li>
         <li><a href="contact.html">Contacto</a></li>
       </ul>
+
+      <!-- Menú sandwich -->
       <button class="menu-toggle" id="menuToggle">
         <span></span><span></span><span></span>
       </button>
+
+      <!-- Botón Dark Mode -->
       <button class="dark-btn" id="darkBtn">🌙</button>
     </nav>
   </header>
 
-  <section class="work fade-in">
-    <h2>Mis Proyectos</h2>
-    <div class="projects-grid">
-      <!-- Proyecto 1 -->
-      <div class="project-card">
-        <img src="https://via.placeholder.com/600x400" alt="Proyecto 1">
-        <div class="project-content">
-          <span class="project-category">Travel</span>
-          <h3>UX para aumentar reservas</h3>
-          <p>Diseño de aplicación móvil para simplificar procesos de reserva.</p>
-          <div class="tags"><span>UX</span><span>Mobile</span></div>
+  <main>
+    <section class="projects-section fade-in">
+      <h2>Featured Projects</h2>
+      <div class="projects-list">
+
+        <!-- Project: Indian Motorcycle -->
+        <div class="project-card enhanced">
+          <div class="project-image">
+            <img src="https://images5.1000ps.net/biebp-bb_W1035306-bild-638477341269198582.jpg?format=webp&quality=80&width=1984" alt="Indian Motorcycle Ad" />
+          </div>
+          <div class="project-content">
+            <span class="project-category">Motorcycle</span>
+            <h3>Indian Motorcycle Campaign</h3>
+            <p>
+              Branding and digital experience work for a premium motorcycle line. Developed visual identity, promotional site, and ad creative to enhance brand prestige and audience reach.
+            </p>
+            <a href="#" class="btn">View Full Case Study →</a>
+          </div>
         </div>
-      </div>
-      <!-- Proyecto 2 -->
-      <div class="project-card">
-        <img src="https://via.placeholder.com/600x400" alt="Proyecto 2">
-        <div class="project-content">
-          <span class="project-category">E-Commerce</span>
-          <h3>Checkout optimizado</h3>
-          <p>Mejora en flujos de compra logrando un +25% en conversiones.</p>
-          <div class="tags"><span>React</span><span>API</span></div>
+
+        <!-- Project: SugarView App -->
+        <div class="project-card enhanced">
+          <div class="project-image">
+            <img src="https://clpmag.com/wp-content/uploads/2020/05/Roche-Accu-Chek-SugarView-cropped.jpeg" alt="SugarView App" />
+          </div>
+          <div class="project-content">
+            <span class="project-category">Health / App</span>
+            <h3>Accu-Check SugarView App</h3>
+            <p>
+              Mobile app design for glucose monitoring with clean UI, smart notifications, and user-friendly experience geared toward diabetic users.
+            </p>
+            <a href="#" class="btn">View Full Case Study →</a>
+          </div>
         </div>
-      </div>
-      <!-- Proyecto 3 -->
-      <div class="project-card">
-        <img src="https://via.placeholder.com/600x400" alt="Proyecto 3">
-        <div class="project-content">
-          <span class="project-category">Healthcare</span>
-          <h3>Citas médicas más rápidas</h3>
-          <p>Plataforma para gestionar consultas reduciendo 30% tiempos de espera.</p>
-          <div class="tags"><span>App</span><span>UX</span></div>
+
+        <!-- Project: Optimum Nutrition -->
+        <div class="project-card enhanced">
+          <div class="project-image">
+            <img src="https://www.optimumnutrition.com/medias/ONUS-Website-image-AuthenticProducts-ScoopNEWLOOK.jpg?context=bWFzdGVyfHJvb3R8Mzk2MTF8aW1hZ2UvanBlZ3xoNTgvaDYxLzk3NjExNTM1NDgzMTguanBnfGM4MjczMjVmNjM5M2QyMjRlNjc4YjZhMjRhOTI2MTg2ODI5ODFkZGUwNmE5Y2Q4MGZlOTMxMGJmN2IyNjZjZWI" alt="Optimum Nutrition" />
+          </div>
+          <div class="project-content">
+            <span class="project-category">Nutrition</span>
+            <h3>Optimum Nutrition Redesign</h3>
+            <p>
+              Website redesign for a supplements brand focused on boosting conversion and improving UX. Created a visual product catalog and streamlined purchase flow.
+            </p>
+            <a href="#" class="btn">View Full Case Study →</a>
+          </div>
         </div>
+
       </div>
-      <!-- Proyecto 4 -->
-      <div class="project-card">
-        <img src="https://via.placeholder.com/600x400" alt="Proyecto 4">
-        <div class="project-content">
-          <span class="project-category">Web</span>
-          <h3>Landing Creativa</h3>
-          <p>Diseño moderno para potenciar la identidad de marca.</p>
-          <div class="tags"><span>HTML</span><span>CSS</span></div>
-        </div>
-      </div>
-    </div>
-  </section>
+    </section>
+  </main>
 
   <footer>
     <div class="footer-top">
-      <p>Yay! Hemos llegado al final. Di 👋</p>
-      <a href="mailto:tuemail@gmail.com" class="footer-email">tuemail@gmail.com</a>
+      <p>Yay! We have come to the end. Say 👋</p>
+      <a href="mailto:tuemail@gmail.com" class="footer-email">k.tovarcontreras@gmail.com</a>
     </div>
     <div class="footer-links">
       <a href="#">LinkedIn</a>
@@ -80,7 +94,7 @@
       <a href="#">Mail</a>
     </div>
     <div class="footer-meta">
-      <p>Made by <a href="#">Tu Nombre</a></p>
+      <p>Made by <a href="#">Karla Tovar</a></p>
       <p>Septiembre 2025</p>
     </div>
     <div class="footer-end">
@@ -91,3 +105,4 @@
   <script src="js/script.js"></script>
 </body>
 </html>
+
